@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about" >About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>  
+    </header>
+
+    <section>
+        <img src="stars.png" id="stars">
+        <img src="moon.png" id="moon">
+        <img src="mountains_behind.png" id="mountains_behind">
+
+        <h2 id="text">Moon Light</h2>
+        <a href="#sec" id="btn">Explore</a>
+
+        <img src="mountains_front.png" id="mountains_front">
+        
+    
+
+    </section>
+
+
+    <div class="sec" id="sec">
+        <h2>Get to Know About Me!</h2>
+        <p>Theona Arlinton, a dedicated Computer Science major at BINUS University, is not just a tech enthusiast but also a versatile artist with a passion for illustration. Her artistic journey is deeply intertwined with her academic pursuits, creating a unique blend of technology and creativity.
+            <br><br>
+            <br> 
+
+            
+            Theona's portfolio in art reflects her proficiency in the realm of illustration, where she demonstrates a keen eye for detail and a distinctive style. Her artistic endeavors go beyond the conventional boundaries, showcasing a fusion of traditional and digital techniques that captivate the viewer's imagination.
+
+            <br> 
+            <br><br>
+
+            What sets Theona apart is her commitment to freelancing, particularly in the realm of manhua illustration. The intricacies of this specialized form require both artistic finesse and a deep understanding of storytelling, a challenge she wholeheartedly embraces.
+
+            <br> 
+            <br><br>
+            Through her freelance work, Theona not only hones her artistic skills but also contributes to the vibrant world of manhua, bringing characters and narratives to life. Her dedication to this craft is evident in each stroke of her digital brush, creating visuals that resonate with emotion and storytelling.
+            <br> 
+            <br><br>
+            As Theona continues to pursue her Computer Science degree, she remains committed to expanding her artistic horizons. Her portfolio is a testament to the seamless integration of technology and artistry, showcasing the limitless possibilities when one combines a passion for illustration with a foundation in computer science.
+
+         </p>
+
+    </div>
+
+
+    <div class="about" id="about">
+        <h2>About</h2>
+        <p>Terms of Service
+            <br>
+            <br><br>
+            1. I will send the sketch for your approval, you are allowed to change or revise it until you are satisfied. 
+            <br> 
+            <br>  
+            The lineart will also be sent to you for approval. 
+            <br> 
+            <br> 
+            Minor changes are allowed for the lineart.
+            <br> <br><br>
+            2. You can ask for your commission's progress at any time.
+            <br> <br><br>
+            3. The time it will take to complete a commission is around 2 days- 3 weeks. I work slowly so please be patient!
+            <br> 
+            <br> 
+            <br> 
+            
+            4. You will receive the files through email/gdrive for personal use. File types that you will receive are:
+            <br> 
+            <br>
+            <br> 
+
+            - png (watermarked)
+            <br> 
+            <br> 
+            - png (unwatermarked)
+            <br> 
+            <br> 
+
+            - png with transparent background
+        </p>
+    </div>
+
+    
+    
+    <div class="work" id="work">
+        <div class="row">
+            <div class="col">
+                <h2>Work</h2>
+                <p>Berikut adalah contoh sample dari pengerjaan illustrasi saya. Untuk lebih banyak detail bisa melihat di sosial media saya.
+                </p>
+                
+            </div>
+
+            <div class="col">
+                <div class="card card1">
+                    <h5>Sample 1</h5>
+                    
+                </div>
+                <div class="card card2">
+                    <h5>Sample 2</h5>
+                    
+                </div>
+                <div class="card card3">
+                    <h5>Sample 3</h5>
+                    
+                </div>
+                <div class="card card4">
+                    <h5>Sample 4</h5>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+            
+    
+       
+    </div>
+    
+    <div class="contact" id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>electus recusandae animi dicta voluptas corporis officia est laboriosam deserunt illum eos reiciendis rerum!
+        </p>
+
+        <footer>
+            <p>&copy; 2024 Your Website Name. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <style>
+        
+
+        form {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4285f4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #357ae8;
+        }
+    </style>
+    
+
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.getElementById('header');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            mountains_behind.style.top = value * 0.5 * 'px';
+            mountains_front.style.top = value * 0 * 'px';
+            text.style.marginRight = value * 4 * 'px';
+            text.style.marginTop = value * 1.5 * 'px';
+            text.style.marginTop = value * 1.5 * 'px';
+            btn.style.marginTop = value * 1.5 * 'px';
+            header.style.top = value * 0.5 * 'px';
+
+        })
+    </script>
+
+</body>
+</html>
